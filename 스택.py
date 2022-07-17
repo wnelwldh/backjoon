@@ -25,8 +25,8 @@ def top(a):
 n = int(input())
 k = [input()for _ in range(n)]
 
-for i in range(n):
-    if "push" in k[i]:
+for j in range(n):
+    if "push" in k[j]:
         push(k[1].split()[1])
     elif k[1]=="top":
         top(a)
