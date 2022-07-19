@@ -6,16 +6,17 @@ def check(b):
             st.append(i)
         else:
             if not st:
-                print("no")
+                print("NO")
                 return
             else:
                 st.pop()
     if not st:
-        print("yes")
+        print("YES")
         return
     else: 
-        print("no")
+        print("NO")
         return
 for _ in range(n):
     b = input()
     check(b)
+    #  틀렸다가 맞음 -> 대문자 구별 안함
